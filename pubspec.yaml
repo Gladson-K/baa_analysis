@@ -1,0 +1,20 @@
+name: baa_application
+description: A Flutter application for sensor data
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  csv: ^6.0.0
+  path_provider: ^2.0.11
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sensor_data.csv
+    
+
+
